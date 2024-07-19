@@ -1,0 +1,37 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.inventory-container {
+    background-color: #f0f0f0;
+}
+
+.cart-container {
+    background-color: #e0e0e0;
+}
+
+
+.inventory-wrapper {
+    
+}
